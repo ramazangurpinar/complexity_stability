@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+BugPrediction_Mylyn,Chi2,1.0,1.0,1.0
+BugPrediction_Mylyn,MutualInfo,0.7529,0.6545,0.8512
+BugPrediction_Mylyn,ReliefF,0.8517,0.7555,0.9479
+BugPrediction_Mylyn,Lasso,0.8287,0.7346,0.9229

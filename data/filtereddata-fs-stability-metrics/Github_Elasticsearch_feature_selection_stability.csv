@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_Elasticsearch,Chi2,1.0,1.0,1.0
+Github_Elasticsearch,MutualInfo,0.4655,0.391,0.54
+Github_Elasticsearch,ReliefF,1.0,1.0,1.0
+Github_Elasticsearch,Lasso,1.0,1.0,1.0

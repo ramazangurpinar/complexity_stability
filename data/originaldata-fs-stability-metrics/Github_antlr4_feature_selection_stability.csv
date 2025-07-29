@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_antlr4,Chi2,1.0,1.0,1.0
+Github_antlr4,MutualInfo,0.4644,0.3863,0.5424
+Github_antlr4,ReliefF,0.8184,0.71,0.9268
+Github_antlr4,Lasso,0.7115,0.5875,0.8355

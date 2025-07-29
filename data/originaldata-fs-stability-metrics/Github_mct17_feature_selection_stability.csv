@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_mct17,Chi2,1.0,1.0,1.0
+Github_mct17,MutualInfo,0.3517,0.2164,0.487
+Github_mct17,ReliefF,0.6149,0.5472,0.6827
+Github_mct17,Lasso,0.7494,0.6488,0.8501

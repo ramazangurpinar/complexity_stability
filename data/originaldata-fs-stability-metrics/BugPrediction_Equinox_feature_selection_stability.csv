@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+BugPrediction_Equinox,Chi2,1.0,1.0,1.0
+BugPrediction_Equinox,MutualInfo,0.6966,0.6456,0.7475
+BugPrediction_Equinox,ReliefF,0.5391,0.478,0.6001
+BugPrediction_Equinox,Lasso,0.6345,0.5552,0.7137

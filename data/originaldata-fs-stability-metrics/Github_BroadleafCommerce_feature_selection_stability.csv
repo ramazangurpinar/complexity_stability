@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_BroadleafCommerce,Chi2,1.0,1.0,1.0
+Github_BroadleafCommerce,MutualInfo,0.9667,0.9067,1.0266
+Github_BroadleafCommerce,ReliefF,1.0,1.0,1.0
+Github_BroadleafCommerce,Lasso,0.9356,0.8583,1.013

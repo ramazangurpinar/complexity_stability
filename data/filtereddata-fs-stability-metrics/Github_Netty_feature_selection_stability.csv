@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_Netty,Chi2,1.0,1.0,1.0
+Github_Netty,MutualInfo,0.4904,0.3459,0.635
+Github_Netty,ReliefF,1.0,1.0,1.0
+Github_Netty,Lasso,1.0,1.0,1.0

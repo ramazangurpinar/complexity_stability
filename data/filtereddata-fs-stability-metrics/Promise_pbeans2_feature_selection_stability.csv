@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_pbeans2,Chi2,1.0,1.0,1.0
+Promise_pbeans2,MutualInfo,0.2471,0.092,0.4023
+Promise_pbeans2,ReliefF,0.0268,-0.0548,0.1084
+Promise_pbeans2,Lasso,0.5881,0.3922,0.784

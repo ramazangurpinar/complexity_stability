@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_forrest08,Chi2,0.9046,0.8139,0.9953
+Promise_forrest08,MutualInfo,0.4161,0.3191,0.5131
+Promise_forrest08,ReliefF,0.5011,0.434,0.5683
+Promise_forrest08,Lasso,0.4195,0.3333,0.5057

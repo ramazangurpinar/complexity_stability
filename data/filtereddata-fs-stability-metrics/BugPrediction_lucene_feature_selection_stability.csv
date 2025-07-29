@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+BugPrediction_lucene,Chi2,0.6379,0.5286,0.7473
+BugPrediction_lucene,MutualInfo,0.3429,0.2256,0.4603
+BugPrediction_lucene,ReliefF,0.5421,0.4131,0.6712
+BugPrediction_lucene,Lasso,0.8008,0.6521,0.9494

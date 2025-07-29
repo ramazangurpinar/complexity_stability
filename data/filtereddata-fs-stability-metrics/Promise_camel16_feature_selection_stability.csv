@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_camel16,Chi2,1.0,1.0,1.0
+Promise_camel16,MutualInfo,0.3525,0.2177,0.4873
+Promise_camel16,ReliefF,0.8908,0.7569,1.0247
+Promise_camel16,Lasso,1.0,1.0,1.0

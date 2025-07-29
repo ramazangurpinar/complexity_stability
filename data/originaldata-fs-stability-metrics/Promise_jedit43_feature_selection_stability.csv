@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_jedit43,Chi2,0.9667,0.9067,1.0266
+Promise_jedit43,MutualInfo,0.3092,0.2454,0.373
+Promise_jedit43,ReliefF,0.5345,0.4746,0.5944
+Promise_jedit43,Lasso,1.0,1.0,1.0

@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+BugPrediction_PDE,Chi2,1.0,1.0,1.0
+BugPrediction_PDE,MutualInfo,0.3851,0.2988,0.4714
+BugPrediction_PDE,ReliefF,0.8494,0.7498,0.949
+BugPrediction_PDE,Lasso,0.8563,0.7674,0.9452

@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_JUnit,Chi2,0.8927,0.7638,1.0217
+Github_JUnit,MutualInfo,0.4387,0.3327,0.5447
+Github_JUnit,ReliefF,0.1284,0.0309,0.2258
+Github_JUnit,Lasso,1.0,1.0,1.0

@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_orientdb,Chi2,1.0,1.0,1.0
+Github_orientdb,MutualInfo,0.3295,0.2064,0.4526
+Github_orientdb,ReliefF,1.0,1.0,1.0
+Github_orientdb,Lasso,1.0,1.0,1.0

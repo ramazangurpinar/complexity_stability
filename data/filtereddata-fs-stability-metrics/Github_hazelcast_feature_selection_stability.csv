@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_hazelcast,Chi2,1.0,1.0,1.0
+Github_hazelcast,MutualInfo,0.1858,0.1088,0.2629
+Github_hazelcast,ReliefF,1.0,1.0,1.0
+Github_hazelcast,Lasso,1.0,1.0,1.0

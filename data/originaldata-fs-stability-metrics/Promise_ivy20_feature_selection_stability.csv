@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_ivy20,Chi2,1.0,1.0,1.0
+Promise_ivy20,MutualInfo,0.6782,0.5928,0.7635
+Promise_ivy20,ReliefF,0.7483,0.6888,0.8077
+Promise_ivy20,Lasso,0.6954,0.6269,0.7639

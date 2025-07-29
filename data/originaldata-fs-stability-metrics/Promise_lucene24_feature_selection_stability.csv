@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_lucene24,Chi2,1.0,1.0,1.0
+Promise_lucene24,MutualInfo,0.2425,0.1508,0.3342
+Promise_lucene24,ReliefF,0.6414,0.5469,0.7359
+Promise_lucene24,Lasso,0.7828,0.7172,0.8484

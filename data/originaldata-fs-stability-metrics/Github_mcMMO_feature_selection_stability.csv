@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_mcMMO,Chi2,1.0,1.0,1.0
+Github_mcMMO,MutualInfo,0.5897,0.4867,0.6926
+Github_mcMMO,ReliefF,0.7287,0.6304,0.8271
+Github_mcMMO,Lasso,0.6954,0.6327,0.7581

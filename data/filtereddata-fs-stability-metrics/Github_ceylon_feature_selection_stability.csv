@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_ceylon,Chi2,1.0,1.0,1.0
+Github_ceylon,MutualInfo,0.2778,0.1763,0.3792
+Github_ceylon,ReliefF,0.4732,0.3991,0.5473
+Github_ceylon,Lasso,0.8927,0.7638,1.0217

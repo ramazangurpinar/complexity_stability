@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_ant14,Chi2,1.0,1.0,1.0
+Promise_ant14,MutualInfo,0.4789,0.4149,0.543
+Promise_ant14,ReliefF,0.5192,0.3992,0.6391
+Promise_ant14,Lasso,1.0,1.0,1.0

@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_oryx,Chi2,0.7605,0.6124,0.9087
+Github_oryx,MutualInfo,0.4866,0.3361,0.6371
+Github_oryx,ReliefF,1.0,1.0,1.0
+Github_oryx,Lasso,1.0,1.0,1.0

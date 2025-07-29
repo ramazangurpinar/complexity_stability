@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_xerces,Chi2,0.746,0.7223,0.7696
+Promise_xerces,MutualInfo,0.6874,0.6228,0.7519
+Promise_xerces,ReliefF,0.8805,0.7913,0.9697
+Promise_xerces,Lasso,0.9333,0.85,1.0166

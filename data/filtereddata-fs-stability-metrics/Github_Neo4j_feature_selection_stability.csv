@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_Neo4j,Chi2,0.8008,0.6521,0.9494
+Github_Neo4j,MutualInfo,0.4272,0.2388,0.6156
+Github_Neo4j,ReliefF,0.9444,0.8445,1.0444
+Github_Neo4j,Lasso,1.0,1.0,1.0

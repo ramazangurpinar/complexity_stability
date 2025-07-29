@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_ckjm18,Chi2,0.5172,0.4004,0.6341
+Promise_ckjm18,MutualInfo,0.3812,0.2632,0.4993
+Promise_ckjm18,ReliefF,0.1705,-0.0049,0.3459
+Promise_ckjm18,Lasso,0.1973,0.1273,0.2673

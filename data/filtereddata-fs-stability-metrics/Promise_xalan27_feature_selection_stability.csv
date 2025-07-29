@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_xalan27,Chi2,1.0,1.0,1.0
+Promise_xalan27,MutualInfo,0.4119,0.2921,0.5317
+Promise_xalan27,ReliefF,0.6341,0.4777,0.7905
+Promise_xalan27,Lasso,0.5843,0.4162,0.7524

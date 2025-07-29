@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_log4j,Chi2,0.8253,0.7266,0.924
+Promise_log4j,MutualInfo,0.3713,0.2453,0.4973
+Promise_log4j,ReliefF,0.7805,0.6866,0.8743
+Promise_log4j,Lasso,0.8149,0.7342,0.8957

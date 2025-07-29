@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_mapdb,Chi2,1.0,1.0,1.0
+Github_mapdb,MutualInfo,0.4586,0.3369,0.5803
+Github_mapdb,ReliefF,0.5011,0.438,0.5643
+Github_mapdb,Lasso,0.7069,0.6365,0.7773

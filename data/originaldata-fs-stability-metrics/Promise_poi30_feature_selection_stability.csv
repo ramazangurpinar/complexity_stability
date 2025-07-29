@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_poi30,Chi2,1.0,1.0,1.0
+Promise_poi30,MutualInfo,0.4552,0.3604,0.55
+Promise_poi30,ReliefF,0.7736,0.6969,0.8502
+Promise_poi30,Lasso,1.0,1.0,1.0

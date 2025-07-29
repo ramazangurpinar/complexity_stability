@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Promise_velocity16,Chi2,0.8927,0.7638,1.0217
+Promise_velocity16,MutualInfo,0.6494,0.4615,0.8374
+Promise_velocity16,ReliefF,0.9444,0.8445,1.0444
+Promise_velocity16,Lasso,0.9444,0.8445,1.0444

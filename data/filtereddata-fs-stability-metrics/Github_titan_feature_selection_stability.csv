@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+Github_titan,Chi2,0.8008,0.6521,0.9494
+Github_titan,MutualInfo,0.5498,0.4232,0.6764
+Github_titan,ReliefF,0.5651,0.4813,0.649
+Github_titan,Lasso,1.0,1.0,1.0

@@ -1,0 +1,5 @@
+Project,Method,Stability,CI_Lower,CI_Upper
+BugPrediction_Eclipse,Chi2,1.0,1.0,1.0
+BugPrediction_Eclipse,MutualInfo,0.3736,0.2893,0.4578
+BugPrediction_Eclipse,ReliefF,0.795,0.6361,0.954
+BugPrediction_Eclipse,Lasso,1.0,1.0,1.0
