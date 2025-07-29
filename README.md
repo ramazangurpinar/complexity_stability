@@ -6,29 +6,59 @@ This project explores the relationship between **software complexity metrics** a
 
 ## Project Structure
 
+## 📁 Project Directory Structure
+
+<details>
+<summary>Click to expand the full folder structure</summary>
+
+```plaintext
 DissertationProject/
 │
-├── README.md # Project explanation
-├── requirements.txt # Dependencies to run the project
+├── README.md
+│   └── Project description and usage guide (this file)
 │
-├── notebooks/ # Main code notebook and custom modules
-│ ├── project.ipynb # Complete pipeline in Jupyter Notebook
-│ └── stability/ # Custom module for Nogueira’s stability index
+├── requirements.txt
+│   └── Python dependencies required to run the project
 │
-├── code-pdf/ # Notebook exported as PDF
-│ └── project.pdf
+├── notebooks/
+│   ├── project.ipynb
+│   │   └── Main Jupyter Notebook containing all analysis steps
+│   └── stability/
+│       └── Custom module for computing Nogueira’s stability index
+│
+├── code-pdf/
+│   └── project.pdf
+│       └── Exported PDF version of the Jupyter notebook
 │
 ├── data/
-│ ├── original-datasets/ # Raw CSVs with 9 software metrics + target (isExistBug)
-│ ├── originaldata-complexity-metrics/ # Computed complexity metrics for each project
-│ ├── originaldata-fs-stability-metrics/ # Feature selection stability scores (Chi2, MI, ReliefF, Lasso)
-│ ├── filtered-datasets/ # Same datasets but reduced to top 5 features
-│ ├── filtereddata-complexity-metrics/ # Complexity metrics for reduced datasets
-│ ├── filtereddata-fs-stability-metrics/ # FS stability scores on filtered datasets
-│ └── results/
-│ ├── originaldata-results/ # Correlation, importance, merged results (original)
-│ ├── filtereddata-results/ # Same, but for filtered datasets
-│ └── overall-results/ # Final comparative analyses
+│   ├── original-datasets/
+│   │   └── Raw CSV files containing 9 software metrics + target label (`isExistBug`)
+│   │
+│   ├── originaldata-complexity-metrics/
+│   │   └── Computed dataset-level complexity metrics (one file per project)
+│   │
+│   ├── originaldata-fs-stability-metrics/
+│   │   └── Feature selection stability scores from 4 FS algorithms (Chi2, MI, ReliefF, Lasso)
+│   │
+│   ├── filtered-datasets/
+│   │   └── Same datasets as original, reduced to top 5 most important features
+│   │
+│   ├── filtereddata-complexity-metrics/
+│   │   └── Recalculated complexity metrics using filtered datasets
+│   │
+│   ├── filtereddata-fs-stability-metrics/
+│   │   └── FS stability scores computed again using filtered features
+│   │
+│   └── results/
+│       ├── originaldata-results/
+│       │   └── Merged results, feature importance and correlation (from original datasets)
+│       │
+│       ├── filtereddata-results/
+│       │   └── Same result structure for the filtered (top-5) datasets
+│       │
+│       └── overall-results/
+│           └── Final combined analysis across all projects and settings
+</details> ```
 
 ## Project Steps
 
