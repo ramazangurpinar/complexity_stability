@@ -11,6 +11,7 @@ This project explores the relationship between **software complexity metrics** a
 <details>
 <summary>Click to expand the full folder structure</summary>
 <br>
+  
 ```plaintext
 DissertationProject/
 │
@@ -58,7 +59,8 @@ DissertationProject/
 │       │
 │       └── overall-results/
 │           └── Final combined analysis across all projects and settings
-</details>```
+</details>
+```
 
 ## Project Steps
 
