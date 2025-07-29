@@ -188,7 +188,7 @@ jupyter notebook notebooks/project.ipynb
 
 ## Project Structure
 
-## 📁 Project Directory Structure
+## Project Directory Structure
 
 <details>
 <summary>Click to expand the full folder structure</summary>
