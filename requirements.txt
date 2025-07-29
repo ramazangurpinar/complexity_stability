@@ -1,0 +1,9 @@
+pandas==2.3.0
+numpy==2.2.3
+matplotlib==3.10.1
+seaborn==0.13.2
+scikit-learn==1.6.1
+scipy==1.15.2
+skrebate==0.62
+tabulate==0.9.0
+problexity==0.5.9
