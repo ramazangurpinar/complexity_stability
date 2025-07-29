@@ -4,63 +4,6 @@ This project explores the relationship between **software complexity metrics** a
 
 ---
 
-## Project Structure
-
-## 📁 Project Directory Structure
-
-<details>
-<summary>Click to expand the full folder structure</summary>
-<br>
-  
-```plaintext
-DissertationProject/
-│
-├── README.md
-│   └── Project description and usage guide (this file)
-│
-├── requirements.txt
-│   └── Python dependencies required to run the project
-│
-├── notebooks/
-│   ├── project.ipynb
-│   │   └── Main Jupyter Notebook containing all analysis steps
-│   └── stability/
-│       └── Custom module for computing Nogueira’s stability index
-│
-├── code-pdf/
-│   └── project.pdf
-│       └── Exported PDF version of the Jupyter notebook
-│
-├── data/
-│   ├── original-datasets/
-│   │   └── Raw CSV files containing 9 software metrics + target label (`isExistBug`)
-│   │
-│   ├── originaldata-complexity-metrics/
-│   │   └── Computed dataset-level complexity metrics (one file per project)
-│   │
-│   ├── originaldata-fs-stability-metrics/
-│   │   └── Feature selection stability scores from 4 FS algorithms (Chi2, MI, ReliefF, Lasso)
-│   │
-│   ├── filtered-datasets/
-│   │   └── Same datasets as original, reduced to top 5 most important features
-│   │
-│   ├── filtereddata-complexity-metrics/
-│   │   └── Recalculated complexity metrics using filtered datasets
-│   │
-│   ├── filtereddata-fs-stability-metrics/
-│   │   └── FS stability scores computed again using filtered features
-│   │
-│   └── results/
-│       ├── originaldata-results/
-│       │   └── Merged results, feature importance and correlation (from original datasets)
-│       │
-│       ├── filtereddata-results/
-│       │   └── Same result structure for the filtered (top-5) datasets
-│       │
-│       └── overall-results/
-│           └── Final combined analysis across all projects and settings
-```
-
 ## Project Steps
 
 The project is organized into 17 structured steps:
@@ -241,4 +184,62 @@ pip install -r requirements.txt
 
 ```bash
 jupyter notebook notebooks/project.ipynb
+```
+
+## Project Structure
+
+## 📁 Project Directory Structure
+
+<details>
+<summary>Click to expand the full folder structure</summary>
+<br>
+  
+```plaintext
+DissertationProject/
+│
+├── README.md
+│   └── Project description and usage guide (this file)
+│
+├── requirements.txt
+│   └── Python dependencies required to run the project
+│
+├── notebooks/
+│   ├── project.ipynb
+│   │   └── Main Jupyter Notebook containing all analysis steps
+│   └── stability/
+│       └── Custom module for computing Nogueira’s stability index
+│
+├── code-pdf/
+│   └── project.pdf
+│       └── Exported PDF version of the Jupyter notebook
+│
+├── data/
+│   ├── original-datasets/
+│   │   └── Raw CSV files containing 9 software metrics + target label (`isExistBug`)
+│   │
+│   ├── originaldata-complexity-metrics/
+│   │   └── Computed dataset-level complexity metrics (one file per project)
+│   │
+│   ├── originaldata-fs-stability-metrics/
+│   │   └── Feature selection stability scores from 4 FS algorithms (Chi2, MI, ReliefF, Lasso)
+│   │
+│   ├── filtered-datasets/
+│   │   └── Same datasets as original, reduced to top 5 most important features
+│   │
+│   ├── filtereddata-complexity-metrics/
+│   │   └── Recalculated complexity metrics using filtered datasets
+│   │
+│   ├── filtereddata-fs-stability-metrics/
+│   │   └── FS stability scores computed again using filtered features
+│   │
+│   └── results/
+│       ├── originaldata-results/
+│       │   └── Merged results, feature importance and correlation (from original datasets)
+│       │
+│       ├── filtereddata-results/
+│       │   └── Same result structure for the filtered (top-5) datasets
+│       │
+│       └── overall-results/
+│           └── Final combined analysis across all projects and settings
+
 ```
