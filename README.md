@@ -1,10 +1,36 @@
 # Complexity-Stability Analysis for Software Bug Prediction
 
-This project aims to investigate the relationship between software complexity metrics and the stability of feature selection (FS) algorithms in the context of software defect (bug) prediction.
+This project explores the relationship between **software complexity metrics** and the **stability of feature selection algorithms** in the context of software defect prediction. It combines data from multiple open-source projects and evaluates how dataset-level complexity influences the consistency of feature selection across algorithms such as Chi2, Mutual Information, ReliefF, and Lasso.
 
 ---
 
 ## Project Structure
+
+DissertationProject/
+│
+├── README.md # Project explanation
+├── requirements.txt # Dependencies to run the project
+│
+├── notebooks/ # Main code notebook and custom modules
+│ ├── project.ipynb # Complete pipeline in Jupyter Notebook
+│ └── stability/ # Custom module for Nogueira’s stability index
+│
+├── code-pdf/ # Notebook exported as PDF
+│ └── project.pdf
+│
+├── data/
+│ ├── original-datasets/ # Raw CSVs with 9 software metrics + target (isExistBug)
+│ ├── originaldata-complexity-metrics/ # Computed complexity metrics for each project
+│ ├── originaldata-fs-stability-metrics/ # Feature selection stability scores (Chi2, MI, ReliefF, Lasso)
+│ ├── filtered-datasets/ # Same datasets but reduced to top 5 features
+│ ├── filtereddata-complexity-metrics/ # Complexity metrics for reduced datasets
+│ ├── filtereddata-fs-stability-metrics/ # FS stability scores on filtered datasets
+│ └── results/
+│ ├── originaldata-results/ # Correlation, importance, merged results (original)
+│ ├── filtereddata-results/ # Same, but for filtered datasets
+│ └── overall-results/ # Final comparative analyses
+
+## Project Steps
 
 The project is organized into 17 structured steps:
 
@@ -94,11 +120,94 @@ The project is organized into 17 structured steps:
 
 ---
 
-## 📄 Outputs
+## Project Objectives
 
-- `summary_feature_importance_mean.csv`
-- `merged_complexity_and_stability.csv`
-- Multiple correlation heatmaps
-- Stability and complexity CSVs (original and filtered)
+- Apply multiple feature selection (FS) algorithms across several software datasets.
+- Calculate the **stability** of FS algorithms using Nogueira’s index.
+- Compute software **complexity metrics** using the `problexity` library.
+- Correlate complexity with FS stability to identify patterns.
+- Determine and compare feature importance using Random Forest.
 
 ---
+
+## Pipeline Summary
+
+### 1. Load & Prepare Data
+- Load `.csv` files from open-source projects.
+- Keep 9 metrics (e.g., `WMC`, `CBO`, `RFC`, etc.) + `isExistBug` label.
+- Merge all datasets into one (37,630 records) and remove statistical outliers.
+
+### 2. Compute Complexity Metrics
+- Use `problexity` to compute 20+ dataset-level metrics like `f1`, `density`, `clsCoef`, `score`, etc.
+- Save results per project and merge.
+
+### 3. Feature Selection & Stability
+- Apply FS using: `Chi2`, `Mutual Info`, `ReliefF`, `Lasso`.
+- Repeat each algorithm 30 times per project.
+- Measure **stability** using binary selection matrix → Nogueira Index.
+
+### 4. Correlation Analysis
+- Merge complexity and stability data.
+- Compute Pearson correlations.
+- Visualize via heatmaps.
+
+### 5. Feature Importance
+- Train `RandomForestClassifier` across 30 iterations per project.
+- Compute average importance for all 10 features.
+- Identify top 5 most impactful: `WMC`, `CBO`, `RFC`, `LOC`, `NPM`.
+
+### 6. Filtered Dataset Analysis
+- Redo steps 2–4 with reduced 5-feature datasets.
+- Results become more interpretable and aligned with literature.
+
+---
+
+## Outputs
+
+| File / Folder | Description |
+|---------------|-------------|
+| `summary_feature_importance_mean.csv` | Mean feature importance from Random Forest |
+| `merged_complexity_and_stability.csv` | Combined complexity + stability |
+| `correlation_complexity_vs_stability.csv` | Pearson correlation table |
+| `project.pdf` | Clean output version of Jupyter analysis |
+| `project.ipynb` | Full pipeline code with outputs |
+| `correlation_complexity_vs_stability.xlsx` | Final coloured combined complexity + stability |
+
+---
+
+## How to Run This Project
+
+Follow the steps below to set up and run the full pipeline from scratch:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ramazangurpinar/complexity_stability.git
+cd complexity_stability
+```
+
+### 2. (Optional) Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+```On macOS/Linux:
+source venv/bin/activate
+```
+
+```On Windows:
+venv\Scripts\activate.bat
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Launch the Jupyter Notebook
+
+```bash
+jupyter notebook notebooks/project.ipynb
+```
