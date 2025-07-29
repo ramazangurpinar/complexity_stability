@@ -58,7 +58,8 @@ DissertationProject/
 │       │
 │       └── overall-results/
 │           └── Final combined analysis across all projects and settings
-</details> ```
+</details>
+```
 
 ## Project Steps
 
